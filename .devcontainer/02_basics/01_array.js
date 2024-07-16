@@ -12,10 +12,11 @@ console.log(myArray[3])
 //Array methods
 
 // console.log(myarr.push(6))
+//console.log(myArray.pop());
 // console.log(myarr);
 
 // myarr.unshift(9)//always pushes the values in start of array
-// myarr.shift()
+// myarr.shift()removes the first input value
 // console.log(myarr.includes(9));// to find weather the given elment is present inside the arry or not
 // console.log(myarr.indexOf(4));// checks the index of number inside the given array returns -1 when element is not present inside arry
 
