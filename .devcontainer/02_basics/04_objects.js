@@ -53,13 +53,41 @@ const user= [
     },
 ]
 
-
-
 user[1].email
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));// consider the kes of the object
-console.log(Object.values(tinderUser));//only consider the values stored in keys
-console.log(Object.entries(tinderUser));// used to find out each value stored inside the object 
-console.log(tinderUser.hasOwnProperty('id'));//Determines whether an object has a property with the specified name.
 // console.log(tinderUser);
+// console.log(Object.keys(tinderUser));// consider the keys of the object
+// console.log(Object.values(tinderUser));//only consider the values stored in keys
+// console.log(Object.entries(tinderUser));// used to find out each value stored inside the object 
+// console.log(tinderUser.hasOwnProperty('id'));//Determines whether an object has a property with the specified name.
+// console.log(tinderUser);
+
+
+const course={
+    coursename: " js in hindi",
+    price: "999",
+    courseTeacher: "hitesh"
+}
+
+// course.courseTeacher
+// destructuring of objects 
+const {courseTeacher: instructor}= course// to avoid calling the same object repeatedly we will give a nickname for it or we can directly call it without . operator
+console.log(instructor);
+
+// const navbar= ({company})=>{
+
+// }
+
+// navbar(company ="hitesh")
+
+// {
+//     name: "abhishek",
+//     coursename : "js in hindi",
+//     price: "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
