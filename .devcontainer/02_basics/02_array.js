@@ -9,7 +9,7 @@ const dc_heros= ["Flash" ,"superman", "batman"]
 // console.log(marvel_heros.concat(dc_heros));
 
 const all_new_heros =[ ...marvel_heros, ...dc_heros]//... is a spead operator used for array concatnation without using 
-// conacat function it links the elements of both the arrays togher under a singlr array 
+// conacat function it links the elements of both the arrays together under a singlr array 
 
 // console.log(all_new_heros);
 
